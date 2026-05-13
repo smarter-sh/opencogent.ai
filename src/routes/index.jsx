@@ -104,4 +104,4 @@ const AuthPages = [
     element: <Logout />,
   },
 ]
-export const appRoutes = [...LandingPages, ...StaticPages, ...AuthPages]
+export const appRoutes = [...LandingPages]

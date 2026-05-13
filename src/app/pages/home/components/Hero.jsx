@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="mt-6 flex justify-center">
               <div className="max-w-6xl">
                 <h1 className="mb-6 text-5xl/tight font-medium text-default-100">
-                  Open Cogent, LLC
+                  OpenCogent LLC
                 </h1>
                 <p className="mx-auto text-base font-medium text-default-300 lg:max-w-xl">
                   An open source, no-code AI authoring platform and developer framework.
