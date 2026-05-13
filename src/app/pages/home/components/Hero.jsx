@@ -30,110 +30,26 @@ const Hero = () => {
                 <h1 className="mb-6 text-5xl/tight font-medium text-default-100">
                   OpenCogent LLC
                 </h1>
+                <h2 className="mb-6 text-5xl/tight font-medium text-default-100">
+                  AI consulting for educational institutions and business.
+                </h2>
                 <p className="mx-auto text-base font-medium text-default-300 lg:max-w-xl">
-                  An open source, no-code AI authoring platform and developer framework.
+                  <bl className="text-left">
+                  <li>
+                    We're the lead developers of the smarter.sh, an open source, no-code AI authoring platform
+                    designed to streamline workflows and enhance productivity and data security.
+                  </li>
+                  <li>
+                    We are consultants to business leaders on securing their deployment of AI within their organizations.
+                  </li>
+                  <li>
+                    We develop AI-for-business training courses for universities and Fortune 500 companies.
+                  </li>
+                  <li>
+                    Our two founders have 60+ years of AI software development experience.
+                  </li>
+                  </bl>
                 </p>
-                <div className="flex flex-wrap justify-center gap-2 mt-4">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/smarter-sh/smarter/actions/workflows/build.yml"
-                  >
-                    <img
-                      src="https://github.com/smarter-sh/smarter/actions/workflows/build.yml/badge.svg?branch=main"
-                      alt="Build Status"
-                      style={{ maxWidth: '100%' }}
-                    />
-                  </a>
-
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/smarter-sh/smarter/actions/workflows/deploy.yml"
-                  >
-                    <img
-                      src="https://github.com/smarter-sh/smarter/actions/workflows/deploy.yml/badge.svg?branch=main"
-                      alt="Release Status"
-                      style={{ maxWidth: '100%' }}
-                    />
-                  </a>
-
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://smarter.readthedocs.io/"
-                  >
-                    <img
-                      src="https://readthedocs.org/projects/smarter/badge/?version=latest"
-                      alt="Documentation Status"
-                      style={{ maxWidth: '100%' }}
-                    />
-                  </a>
-
-                  <a href="https://www.gnu.org/licenses/agpl-3.0" rel="nofollow">
-                    <img
-                      src="https://img.shields.io/badge/License-AGPL_v3-blue.svg"
-                      alt="License: GNU AGPL v3"
-                      style={{ maxWidth: '100%' }}
-                    />
-                  </a>
-                </div>
-                <div className="dockerhub flex flex-wrap justify-center gap-2 mt-4">
-                  <a href="https://hub.docker.com/r/mcdaniel0073/smarter" rel="nofollow">
-                    <img
-                      src="https://img.shields.io/docker/pulls/mcdaniel0073/smarter.svg?logo=docker&label=DockerHub"
-                      alt="DockerHub"
-                      style={{ maxWidth: '100%' }}
-                    />
-                  </a>
-                  <a
-                    href="https://artifacthub.io/packages/helm/project-smarter/smarter"
-                    rel="nofollow"
-                  >
-                    <img
-                      src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/project-smarter"
-                      alt="Artifact Hub"
-                      style={{ maxWidth: '100%' }}
-                    />
-                  </a>
-                </div>
-                <div className="python flex flex-wrap justify-center gap-2 mt-4">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/smarter-sh/smarter/blob/main/pyproject.toml"
-                  >
-                    <img
-                      src="https://img.shields.io/badge/python-3.10%2B-blue"
-                      alt="Python 3.10+"
-                      style={{ maxWidth: '100%' }}
-                    />
-                  </a>
-
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://pydantic.dev/"
-                  >
-                    <img
-                      src="https://img.shields.io/badge/pydantic-2.9-green"
-                      alt="Pydantic 2.9"
-                      style={{ maxWidth: '100%' }}
-                    />
-                  </a>
-
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.django-rest-framework.org/"
-                  >
-                    <img
-                      src="https://img.shields.io/badge/DRF-3.15-orange"
-                      alt="Django REST Framework 3.15"
-                      style={{ maxWidth: '100%' }}
-                    />
-                  </a>
-                </div>
                 <div className="readthedocs flex flex-wrap justify-center gap-2 mt-4">
                   <a
                     target="_blank"

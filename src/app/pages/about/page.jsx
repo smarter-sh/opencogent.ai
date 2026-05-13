@@ -17,8 +17,8 @@ const About = () => {
           <h2 className="text-3xl mb-6">The Original Problem</h2>
           <section className="mb-8">
             <p>
-              I teach AI to non-programmers at University of British Columbia. Like most
-              AI professionals at the time, I spent much of Q1-2023 discovering the
+              Lawrence teaches AI to non-programmers at University of British Columbia. Like most
+              AI professionals at the time, he spent much of Q1-2023 discovering the
               capabilities of OpenAI's newly published{' '}
               <a
                 href="https://platform.openai.com/docs/api-reference/introduction"
@@ -28,7 +28,7 @@ const About = () => {
               >
                 REST Api
               </a>
-              . In early April of that year I deployed a fun single page web app —{' '}
+              . In early April of that year Lawrence deployed a fun single page web app —{' '}
               <a
                 href="https://openai.lawrencemcdaniel.com/"
                 className="group relative inline-flex items-center gap-2 text-primary"
@@ -90,7 +90,7 @@ const About = () => {
               </li>
             </ol>
             <p>
-              Even though I'm satisfied with the end result, I was nonetheless
+              Even though Lawrence was satisfied with the end result, he was nonetheless
               disappointed in the size and breadth of the project. It's entirely too
               complicated. At more than 12,000 lines of code, it is a solidly medium-sized
               project by commercial standards, spanning complex technologies including
@@ -105,10 +105,10 @@ const About = () => {
           </section>
           <section className="mb-8">
             <p>
-              This lived experience inspired the Smarter project. I wanted to abstract
+              This lived experience inspired the Smarter project. We wanted to abstract
               away all of the React, Python, Terraform, and network engineering, leaving
               only the LLM prompt and tool calls, editable in real-time in a
-              classroom-friendly environment. And after careful thought I realized there
+              classroom-friendly environment. And after careful thought we realized there
               was a laundry list of pretty big secondary goals as well, including:
             </p>
             <ul className="list-disc my-4 space-y-4 pl-6">
@@ -126,7 +126,7 @@ const About = () => {
                 Providing more visibility into the inner workings of LLM function calling,
                 especially in cases where complex 'selectors' are employed, and multiple
                 tools are being presented in a single chat session, and remote data
-                sources are being integrated to these tools. Ideally, I wanted to extend
+                sources are being integrated to these tools. Ideally, we wanted to extend
                 the traditional chat interface to include a kind of 'debug mode' that
                 introduces additional roles into the chat thread, showing how the LLM is
                 reasoning about which tools to call, what data is being returned from
@@ -152,7 +152,7 @@ const About = () => {
           </section>
           <section className="problem mb-8">
             <p>
-              Separately, and on an aside, for several years I've aspired to teach a class
+              Separately, and on an aside, for several years we've aspired to teach a class
               on advanced cloud computing techniques; namely Kubernetes. To do that well,
               you need an easy-to-understand application with a real-world purpose for
               running inside massively scalable cloud infrastructure. Bonus points if this
@@ -191,7 +191,7 @@ const About = () => {
               perfected over time based on their own realized experience running
               containers in production for more than a decade. The joint tests of time and
               scale have proven that most cloud resources can be described using the
-              Kubernetes manifest layout. So in April 2023, I set about prototyping
+              Kubernetes manifest layout. So in April 2023, we set about prototyping
               something like Kubernetes, but for AI resources. To be sure, there are
               nuances. For example, Kubernetes has no front end nor user experience, while
               AI resources often do. Still, though imperfect, the comparison is close
@@ -209,7 +209,7 @@ const About = () => {
               mind, Smarter's backend is written in Python rather than in Golang. And not
               to beat the matter to death, but Smarter requires a web front end for the
               Prompt Engineers Workbench as well as for adminstration, and Django is an
-              excellent choice for both, so that's what I used. Despite the divergence in
+              excellent choice for both, so that's what we used. Despite the divergence in
               language choices, both platforms work with YAML manifests and both are
               extensible. So no matter where you look, you'll see a lot of similarities.
             </p>
@@ -229,7 +229,7 @@ const About = () => {
               <p className="mb-8">
                 Plenty more work remains, of course. Smarter is a young project, and there
                 are many hoped-for features that are yet to be implemented. Nonetheless,
-                I'm proud of the project so far, and I'm excited about its potential to
+                we're proud of the project so far, and I'm excited about its potential to
                 transform how AI applications are developed and taught.
               </p>
             </section>

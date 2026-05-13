@@ -210,7 +210,7 @@ export const faqsData = [
 ]
 export const footerLinks = [
   {
-    title: 'Sponsorship & About',
+    title: 'Smarter: Sponsorship & About',
     links: [
       {
         name: 'Patreon Page',
@@ -225,13 +225,13 @@ export const footerLinks = [
         url: '/about'
       },
       {
-        name: 'About the author',
+        name: 'About the lead author',
         url: 'https://lawrencemcdaniel.com',
       },
     ],
   },
   {
-    title: 'Community & Resources',
+    title: 'Smarter: Community & Resources',
     links: [
       {
         name: 'GitHub Repositories',
@@ -260,7 +260,7 @@ export const footerLinks = [
     ],
   },
   {
-    title: 'Technical Guides',
+    title: 'Smarter: Technical Guides',
     links: [
       {
         name: 'Smarter Platform Overview',

@@ -22,12 +22,6 @@ const ServiceCard = ({ icon, title, description, link }) => (
 
 const services = [
   {
-    icon: "lucide:code",
-    title: "Customization",
-    description: "Tailer Smarter to your specific needs with the help of a core committer to the project.",
-    link: "https://lawrencemcdaniel.com/contact",
-  },
-  {
     icon: "lucide:codesandbox",
     title: "Installation",
     description: "Quick and hassle free. Get Smarter up and running on your infrastructure quickly with our expert installation services.",
@@ -43,6 +37,12 @@ const services = [
     icon: "lucide:server",
     title: "Hosting",
     description: "We offer reliable and cost effective hosting solutions with service level agreements.",
+    link: "https://lawrencemcdaniel.com/contact",
+  },
+  {
+    icon: "lucide:code",
+    title: "Customization",
+    description: "Tailer Smarter to your specific needs with the help of a core committer to the project.",
     link: "https://lawrencemcdaniel.com/contact",
   },
 ]

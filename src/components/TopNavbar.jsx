@@ -13,21 +13,10 @@ const navLinks = [
     link: '/',
   },
   {
-    label: 'About',
-    link: '/about',
-  },
-  {
-    label: 'CLI',
-    link: '/cli',
-  },
-  {
     label: 'Services',
     link: '/#services',
   },
-  {
-    label: 'Legal',
-    link: '/legal',
-  },
+
 ]
 
 
