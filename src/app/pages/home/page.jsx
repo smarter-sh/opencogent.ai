@@ -12,9 +12,9 @@ const Home = () => {
       <TopNavbar />
       <main className="w-full">
         <Hero />
+        <ProfessionalServices />
         <About />
         <Features />
-        <ProfessionalServices />
       </main>
       <Footer />
     </div>

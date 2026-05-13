@@ -5,8 +5,7 @@ import { default as BaseFooter } from '@/components/Footer'
 const Footer = () => {
   const socialIcons = [
     { icon: 'lucide:github', url: 'https://github.com/smarter-sh/' },
-    { icon: 'lucide:twitter', url: 'https://twitter.com/' },
-    { icon: 'lucide:linkedin', url: 'https://www.linkedin.com/in/lawrencemcdaniel/' },
+    { icon: 'lucide:linkedin', url: 'https://www.linkedin.com/company/opencogent/' },
   ]
   return (
     <footer
