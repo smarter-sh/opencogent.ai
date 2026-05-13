@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react'
 import Gumshoe from 'gumshoejs'
 import IconifyIcon from './wrappers/IconifyIcon'
 import { Link } from 'react-router-dom'
-import logo from '@/assets/images/logo.png'
+import smarter_logo from '@/assets/images/smarter_logo.png'
 import useScrollEvent from '@/hooks/useScrollEvent'
 
 const navLinks = [
@@ -45,7 +45,7 @@ const TopNavbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav>
             <Link to="/" className="logo">
-              <img src={logo} className="h-16" alt="Smarter" />
+              <img src={smarter_logo} className="h-16" alt="Smarter" />
             </Link>
             <div className="ms-auto flex items-center px-2.5 lg:hidden">
               <button
