@@ -24,7 +24,7 @@ const services = [
   {
     icon: "lucide:codesandbox",
     title: "Installation",
-    description: "Quick and hassle free. Get Smarter up and running on your infrastructure quickly with our expert installation services.",
+    description: "Quick and hassle free. Get The Smarter Project up and running on your infrastructure quickly with our expert installation services.",
     link: "https://lawrencemcdaniel.com/contact",
   },
   {
@@ -42,7 +42,7 @@ const services = [
   {
     icon: "lucide:code",
     title: "Customization",
-    description: "Tailer Smarter to your specific needs with the help of a core committer to the project.",
+    description: "Tailer The Smarter Project to your specific needs with the help of a core committer to the project.",
     link: "https://lawrencemcdaniel.com/contact",
   },
 ]

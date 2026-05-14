@@ -36,7 +36,7 @@ const Hero = () => {
                 <p className="mx-auto text-base font-medium text-default-300 lg:max-w-xl">
                   <bl className="text-left">
                   <li>
-                    We're the lead developers of smarter.sh, an open source, no-code AI authoring platform
+                    We're the lead developers of <a href="https://smarter.sh">The Smarter Project</a>, an open source, no-code AI authoring platform
                     designed to streamline workflows and enhance productivity and data security.
                   </li>
                   <li>
@@ -46,7 +46,7 @@ const Hero = () => {
                     We develop AI-for-business training courses for universities and Fortune 500 companies.
                   </li>
                   <li>
-                    Our two founders have 60+ years of AI software development experience.
+                    Our founders have 60+ years of combined AI software development experience.
                   </li>
                   </bl>
                 </p>
