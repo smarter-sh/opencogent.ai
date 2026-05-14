@@ -1,7 +1,7 @@
 import AuthImage from '@/components/AuthImage'
 import { Link } from 'react-router-dom'
 import AuthHeader from '@/components/AuthHeader'
-import logo from '@/assets/images/logo.png'
+import logo from '@/assets/images/opencogent_logo.png'
 import logoSvg from '@/assets/images/logout.svg'
 import AuthLayout from '@/components/AuthLayout'
 import PageMetaData from '@/components/PageMetaData'
