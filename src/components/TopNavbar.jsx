@@ -5,6 +5,7 @@ import Gumshoe from 'gumshoejs'
 import IconifyIcon from './wrappers/IconifyIcon'
 import { Link } from 'react-router-dom'
 import smarter_logo from '@/assets/images/smarter_logo.png'
+import opencogent_logo from '@/assets/images/opencogent_logo.png'
 import useScrollEvent from '@/hooks/useScrollEvent'
 
 const navLinks = [
@@ -45,7 +46,7 @@ const TopNavbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav>
             <Link to="/" className="logo">
-              <img src={smarter_logo} className="h-16" alt="Smarter" />
+              <img src={opencogent_logo} className="h-20 w-auto" alt="OpenCogent" />
             </Link>
             <div className="ms-auto flex items-center px-2.5 lg:hidden">
               <button
