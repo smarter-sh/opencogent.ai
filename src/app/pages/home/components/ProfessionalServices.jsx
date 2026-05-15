@@ -42,7 +42,7 @@ const services = [
   {
     icon: "lucide:code",
     title: "Customization",
-    description: "Tailer The Smarter Project to your specific needs with the help of a core committer to the project.",
+    description: "Tailor The Smarter Project to your specific needs with the help of a core committer to the project.",
     link: "https://lawrencemcdaniel.com/contact",
   },
 ]
