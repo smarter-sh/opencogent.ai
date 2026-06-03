@@ -31,6 +31,6 @@ export const teamMembers = [
     bio: 'Computer scientist and seasoned executive with 20+ years helping global brands connect AI strategy to measurable business outcomes. Founder of Touchpoint Strategies and formerly CRO at Revscale, MK brings deep expertise in AI-driven growth. She advises OpenCogent clients on enterprise AI adoption.',
     email: 'mk@opencogent.ai',
     linkedin: 'https://www.linkedin.com/in/mkmarsden/',
-    photo: null,
+    photo: 'mk_400x400.jpg',
   },
 ]
