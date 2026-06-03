@@ -3,7 +3,7 @@
 export const teamMembers = [
   {
     name: 'Lawrence McDaniel',
-    title: 'Co-Founder & Principal Engineer',
+    title: 'Co-Founder & CTO',
     bio: 'Data Scientist, Full Stack Developer, and AI instructor at the University of British Columbia. Lawrence has 30+ years of software engineering experience and is the principal author and maintainer of The Smarter Project.',
     email: 'lpm0073@gmail.com',
     linkedin: 'https://www.linkedin.com/in/lawrencemcdaniel/',
@@ -18,19 +18,19 @@ export const teamMembers = [
     photo: null,
   },
   {
-    name: 'Team Member Three',
-    title: 'AI Solutions Architect',
-    bio: 'Specialist in designing and deploying scalable AI infrastructure. Brings enterprise-grade Kubernetes and cloud-native expertise to every client engagement.',
-    email: 'team@opencogent.ai',
-    linkedin: 'https://www.linkedin.com/',
+    name: 'Mark Shoemaker',
+    title: 'Course Developer & Training Instructor',
+    bio: 'Deep expertise building and delivering technical training courses to business customers around the world. Mark creates OpenCogent's course catalog to deliver on our mission to make AI accessible and secure.',
+    email: 'mark@opencogent.ai',
+    linkedin: 'https://www.linkedin.com/in/shoemakermark/',
     photo: null,
   },
   {
-    name: 'Team Member Four',
-    title: 'Prompt Engineering Lead',
-    bio: 'Expert in LLM prompt design, evaluation, and optimization. Develops AI-for-business training curricula for universities and Fortune 500 companies.',
-    email: 'team@opencogent.ai',
-    linkedin: 'https://www.linkedin.com/',
+    name: 'MK Marsden',
+    title: 'Business Growth Advisor',
+    bio: 'Computer scientist and seasoned executive with 20+ years helping global brands connect AI strategy to measurable business outcomes. Founder of Touchpoint Strategies and formerly CRO at Revscale, MK brings deep expertise in AI-driven growth, enterprise data strategy, and revenue transformation. A board director and judge of international business plan competitions, she advises OpenCogent on enterprise AI adoption and go-to-market strategy.',
+    email: 'mk@opencogent.ai',
+    linkedin: 'https://www.linkedin.com/in/mkmarsden/',
     photo: null,
   },
 ]
