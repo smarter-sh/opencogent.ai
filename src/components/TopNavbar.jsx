@@ -18,10 +18,13 @@ const navLinks = [
     link: '/#services',
   },
   {
+    label: 'Team',
+    link: '/team',
+  },
+  {
     label: 'Blog',
     link: 'https://blog.opencogent.ai/',
   },
-
 ]
 
 

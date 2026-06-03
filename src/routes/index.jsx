@@ -5,6 +5,7 @@ import { Navigate } from 'react-router-dom'
 const Home = lazy(() => import('@/app/pages/home/page'))
 const Cli = lazy(() => import('@/app/pages/cli/page'))
 const About = lazy(() => import('@/app/pages/about/page'))
+const Team = lazy(() => import('@/app/pages/team/page'))
 const TOS = lazy(() => import('@/app/pages/tos/page'))
 const Privacy = lazy(() => import('@/app/pages/privacy/page'))
 const Legal = lazy(() => import('@/app/pages/legal/page'))
@@ -38,6 +39,11 @@ const StaticPages = [
     path: '/about',
     name: 'About',
     element: <About />,
+  },
+  {
+    path: '/team',
+    name: 'Team',
+    element: <Team />,
   },
   {
     path: '/plans',
@@ -104,4 +110,4 @@ const AuthPages = [
     element: <Logout />,
   },
 ]
-export const appRoutes = [...LandingPages]
+export const appRoutes = [...LandingPages, ...StaticPages]
