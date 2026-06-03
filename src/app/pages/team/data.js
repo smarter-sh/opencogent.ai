@@ -5,9 +5,9 @@ export const teamMembers = [
     name: 'Lawrence McDaniel',
     title: 'Co-Founder & CTO',
     bio: 'Data Scientist, Full Stack Developer, and AI instructor at the University of British Columbia. Lawrence has 30+ years of software engineering experience and is the principal author and maintainer of The Smarter Project.',
-    email: 'lpm0073@gmail.com',
+    email: 'lawrence@opencogent.ai',
     linkedin: 'https://www.linkedin.com/in/lawrencemcdaniel/',
-    photo: 'https://avatars.githubusercontent.com/u/1460513?v=4',
+    photo: null,
   },
   {
     name: 'Kent Fuka',
