@@ -20,7 +20,7 @@ export const teamMembers = [
   {
     name: 'Mark Shoemaker',
     title: 'Course Developer & Training Instructor',
-    bio: 'Deep expertise building and delivering technical training courses to business customers around the world. Mark creates OpenCogent's course catalog to deliver on our mission to make AI accessible and secure.',
+    bio: 'Deep expertise building and delivering technical training courses to business customers around the world. Mark creates OpenCogent\'s course catalog to deliver on our mission to make AI accessible and secure.',
     email: 'mark@opencogent.ai',
     linkedin: 'https://www.linkedin.com/in/shoemakermark/',
     photo: null,
