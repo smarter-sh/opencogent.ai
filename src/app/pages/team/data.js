@@ -7,7 +7,7 @@ export const teamMembers = [
     bio: 'Data Scientist, Full Stack Developer, and AI instructor at the University of British Columbia. Lawrence has 30+ years of software engineering experience and is the principal author and maintainer of The Smarter Project.',
     email: 'lawrence@opencogent.ai',
     linkedin: 'https://www.linkedin.com/in/lawrencemcdaniel/',
-    photo: null,
+    photo: 'lawrence_400x400.jpg',
   },
   {
     name: 'Kent Fuka',
@@ -15,7 +15,7 @@ export const teamMembers = [
     bio: 'Entrepreneur and technology leader with deep expertise in AI strategy and enterprise transformation. Kent guides OpenCogent\'s mission to make AI accessible and secure for organizations of all sizes.',
     email: 'kent@opencogent.ai',
     linkedin: 'https://www.linkedin.com/in/kentfuka/',
-    photo: null,
+    photo: 'kent_400x401.jpg',
   },
   {
     name: 'Mark Shoemaker',
