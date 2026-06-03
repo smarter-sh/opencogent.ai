@@ -27,8 +27,8 @@ export const teamMembers = [
   },
   {
     name: 'MK Marsden',
-    title: 'Business Growth Advisor',
-    bio: 'Computer scientist and seasoned executive with 20+ years helping global brands connect AI strategy to measurable business outcomes. Founder of Touchpoint Strategies and formerly CRO at Revscale, MK brings deep expertise in AI-driven growth, enterprise data strategy, and revenue transformation. A board director and judge of international business plan competitions, she advises OpenCogent on enterprise AI adoption and go-to-market strategy.',
+    title: 'Marketing and AI Advisor',
+    bio: 'Computer scientist and seasoned executive with 20+ years helping global brands connect AI strategy to measurable business outcomes. Founder of Touchpoint Strategies and formerly CRO at Revscale, MK brings deep expertise in AI-driven growth. She advises OpenCogent clients on enterprise AI adoption.',
     email: 'mk@opencogent.ai',
     linkedin: 'https://www.linkedin.com/in/mkmarsden/',
     photo: null,
