@@ -23,7 +23,7 @@ export const teamMembers = [
     bio: 'Deep expertise building and delivering technical training courses to business customers around the world. Mark creates OpenCogent\'s course catalog to deliver on our mission to make AI accessible and secure.',
     email: 'mark@opencogent.ai',
     linkedin: 'https://www.linkedin.com/in/shoemakermark/',
-    photo: null,
+    photo: 'shoemaker_400x400.jpg',
   },
   {
     name: 'MK Marsden',
