@@ -28,8 +28,7 @@ export const about = [
     name: 'Swagger API docs',
     icon: 'lucide:book-open',
     iconClass: 'bg-white/20 text-white',
-    detail:
-      'Getting started with the Smarter API is easy with Swagger.',
+    detail: 'Getting started with the Smarter API is easy with Swagger.',
     link_text: 'View API Docs',
     url: 'https://ubc.smarter.sh/docs/swagger/',
   },
@@ -47,9 +46,9 @@ export const about = [
     icon: 'lucide:globe-2',
     iconClass: 'bg-teal-700/20 text-teal-700',
     detail:
-      'An example web integration using the Smarter NPM package to build customer-facing chat applications.',
+      "The Smarter Project's website, whose landing page runs four live chatbots with the Smarter Chat NPM package: a real-world example of customer-facing chat applications.",
     link_text: 'View on GitHub',
-    url: 'https://github.com/smarter-sh/web-integration-example',
+    url: 'https://github.com/smarter-sh/smarter.sh',
   },
   {
     name: 'Helm Charts',
@@ -214,15 +213,15 @@ export const footerLinks = [
     links: [
       {
         name: 'Patreon Page',
-        url: 'https://patreon.com/FullStackWithLawrence?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink'
+        url: 'https://patreon.com/FullStackWithLawrence?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink',
       },
       {
         name: 'Donate to Smarter',
-        url: 'https://github.com/sponsors/lpm0073'
+        url: 'https://github.com/sponsors/lpm0073',
       },
       {
         name: 'Project Origins',
-        url: '/about'
+        url: '/about',
       },
       {
         name: 'About the lead author',
@@ -239,7 +238,7 @@ export const footerLinks = [
       },
       {
         name: 'Contributing Guide',
-        url: 'https://docs.smarter.sh/en/latest/smarter-framework/guides/contributing.html'
+        url: 'https://docs.smarter.sh/en/latest/smarter-framework/guides/contributing.html',
       },
       {
         name: 'Code of Conduct',
@@ -255,8 +254,8 @@ export const footerLinks = [
       },
       {
         name: 'Release Notes',
-        url: 'https://github.com/smarter-sh/smarter/blob/main/CHANGELOG.md'
-        },
+        url: 'https://github.com/smarter-sh/smarter/blob/main/CHANGELOG.md',
+      },
     ],
   },
   {
@@ -264,15 +263,15 @@ export const footerLinks = [
     links: [
       {
         name: 'Smarter Platform Overview',
-        url: 'https://docs.smarter.sh/en/latest/smarter-platform.html'
+        url: 'https://docs.smarter.sh/en/latest/smarter-platform.html',
       },
       {
         name: 'Smarter Resources Overview',
-        url: 'https://docs.smarter.sh/en/latest/smarter-resources.html'
+        url: 'https://docs.smarter.sh/en/latest/smarter-resources.html',
       },
       {
         name: 'Smarter Framework Overview',
-        url: 'https://docs.smarter.sh/en/latest/smarter-framework.html'
+        url: 'https://docs.smarter.sh/en/latest/smarter-framework.html',
       },
       {
         name: 'React UI Integration Guide',
