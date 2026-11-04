@@ -14,16 +14,20 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   github-release:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           persist-credentials: false
 
       - name: Cache Yarn dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
         with:
           path: ~/.cache/yarn
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/package.json') }}
@@ -31,7 +35,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Setup Node.js environment
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
         with:
           node-version: '22.12.0'
 
@@ -68,7 +72,7 @@ jobs:
       - name: Create GitHub release
         if: env.NEW_RELEASE == 'true'
         id: create_release
-        uses: cycjimmy/semantic-release-action@v5
+        uses: cycjimmy/semantic-release-action@ba330626c4750c19d8299de843f05c7aa5574f62 # v5.0.2
         with:
           branches: main
           extra_plugins: |
